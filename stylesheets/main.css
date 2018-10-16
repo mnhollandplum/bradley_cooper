@@ -1,0 +1,88 @@
+
+.big-box
+{
+  display: grid;
+  grid-template-columns: fr1, fr1, fr1, fr1, fr1;
+  grid-template-rows: fr1, fr1, fr1;
+}
+
+.info-block
+{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background: green;
+}
+
+.profile-block
+{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background: yellow;
+}
+
+.experience-block
+{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background: blue;
+}
+
+.education-block
+{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background: red;
+}
+
+.blog-block
+{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background: green;
+}
+
+.social_menu-block
+{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background: orange;
+}
+
+.contact-block
+{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background: blue;
+}
+
+.portfolio-block
+{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background: orange;
+}
+
+.image-block
+{
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  background: blue;
+}
